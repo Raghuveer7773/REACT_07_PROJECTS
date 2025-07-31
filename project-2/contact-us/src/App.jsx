@@ -1,10 +1,18 @@
 import "./App.css";
+import ContactForm from "./components/ContactForm/Contactform";
+import ContactHeader from "./components/ContactHeader/ContactHeader";
 import Navigation from "./components/Navigation/Navigation";
 
 function App() {
-    return <div>
-        <Navigation/>
+  return (
+    <div>
+      <Navigation />
+      <main className="main_container">
+        <ContactHeader />
+        <ContactForm />
+      </main>
     </div>
+  );
 }
 
 export default App;

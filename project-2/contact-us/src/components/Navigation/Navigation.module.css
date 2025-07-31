@@ -7,13 +7,13 @@
     height: 72px;
 }
 
-.ul {
+.navigation ul {
     display: flex;
     gap: 24px;
     list-style: none;
 }
 
-.a {
+a {
     color: black;
     text-decoration: none;
     font-weight: 500;
